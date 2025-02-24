@@ -95,21 +95,22 @@ npm install
 Ensure server/config/db.js uses your MySQL credentials.
 Update server/index.js if needed for port or CORS (defaults to port 5000).
 Running the Application
-1. Start the Backend
+
+## 1. Start the Backend
 In the server/ directory:
 ```bash
 nodemon server.js
 ```
 Ensure MySQL is running locally (e.g., mysql -u root -p).
 
-2. Start the Frontend
+## 2. Start the Frontend
 In the client/ directory:
 ```bash
 npm run dev
 ```
 Open your browser to http://localhost:5173 to access the portal.
 
-3. Usage
+## 3. Usage
 
 Job Seekers: Visit /, use the "Login/Signup" popup to register (/jobseeker-register) or log in (/jobseeker-login), then browse jobs (/jobs) and apply with resumes.
 
@@ -117,7 +118,7 @@ Employers: Log in via the popup (/company-login), manage jobs on /dashboard, and
 
 Administrators: Access /admin-login (manually enter URL), log in, and manage companies on /admin-dashboard.
 
-4.Technologies Used
+## 4.Technologies Used
 
 Backend: Node.js, Express.js, MySQL, Multer, JWT, bcrypt
 
