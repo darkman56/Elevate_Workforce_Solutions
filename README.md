@@ -34,7 +34,7 @@ Before setting up, ensure you have the following installed:
 git clone https://github.com/your-username/Elevate_Workforce_Solutions.git
 cd Elevate_Workforce_Solutions
 ```
-###2. Set Up the Database
+2. Set Up the Database
 Install MySQL and create a database named job_portal_db.
 Update server/config/db.js with your MySQL credentials:
 ```bash
@@ -125,8 +125,8 @@ Contributing
 Fork the repository, create a branch, and submit pull requests.
 Report issues or suggest features via GitHub Issues.
 
-5. License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-6.Contact
+Contact
 For questions or support, contact Prashant Khanal at prashantkhanal555@gmail.com.
