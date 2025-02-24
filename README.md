@@ -34,7 +34,7 @@ Before setting up, ensure you have the following installed:
 git clone https://github.com/your-username/Elevate_Workforce_Solutions.git
 cd Elevate_Workforce_Solutions
 ```
-2. Set Up the Database
+### 2. Set Up the Database
 Install MySQL and create a database named job_portal_db.
 Update server/config/db.js with your MySQL credentials:
 ```bash
@@ -85,13 +85,13 @@ CREATE TABLE applications (
   FOREIGN KEY (user_id) REFERENCES users(id)
 );
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 Navigate to the server/ directory:
 ```bash
 cd server
 npm install
 ```
-4. Configure Environment
+### 4. Configure Environment
 Ensure server/config/db.js uses your MySQL credentials.
 Update server/index.js if needed for port or CORS (defaults to port 5000).
 Running the Application
