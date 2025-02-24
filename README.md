@@ -125,8 +125,12 @@ Contributing
 Fork the repository, create a branch, and submit pull requests.
 Report issues or suggest features via GitHub Issues.
 
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 Contact
-For questions or support, contact Prashant Khanal at prashantkhanal555@gmail.com.
+For questions or support, 
+Prashant Khanal 
+prashantkhanal555@gmail.com.
