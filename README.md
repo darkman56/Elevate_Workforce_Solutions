@@ -112,25 +112,37 @@ Open your browser to http://localhost:5173 to access the portal.
 3. Usage
 
 Job Seekers: Visit /, use the "Login/Signup" popup to register (/jobseeker-register) or log in (/jobseeker-login), then browse jobs (/jobs) and apply with resumes.
+
 Employers: Log in via the popup (/company-login), manage jobs on /dashboard, and download applicant resumes.
+
 Administrators: Access /admin-login (manually enter URL), log in, and manage companies on /admin-dashboard.
 
 4.Technologies Used
 
 Backend: Node.js, Express.js, MySQL, Multer, JWT, bcrypt
+
+
 Frontend: React, Vite, Axios, CSS
+
+
 Development Tools: VS Code, Postman, Git/GitHub, Trello, MySQL Workbench
+
+
 Methodology: Agile (6 two-week sprints)
+
+
 Contributing
 Fork the repository, create a branch, and submit pull requests.
+
+
 Report issues or suggest features via GitHub Issues.
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-Contact
+## Contact
 For questions or support, 
 Prashant Khanal 
 prashantkhanal555@gmail.com.
