@@ -33,11 +33,11 @@ Before setting up, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/Elevate_Workforce_Solutions.git
 cd Elevate_Workforce_Solutions
-
-2. Set Up the Database
+```
+###2. Set Up the Database
 Install MySQL and create a database named job_portal_db.
 Update server/config/db.js with your MySQL credentials:
-
+```bash
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
@@ -46,8 +46,10 @@ const pool = mysql.createPool({
   port: 3307 // Adjust if your MySQL uses a different port
 });
 
-Run the SQL script to create tables (users, jobs, applications). Use this in MySQL Workbench or CLI:
+```
 
+Run the SQL script to create tables (users, jobs, applications). Use this in MySQL Workbench or CLI:
+```bash
 CREATE DATABASE job_portal_db;
 
 USE job_portal_db;
@@ -82,36 +84,36 @@ CREATE TABLE applications (
   FOREIGN KEY (job_id) REFERENCES jobs(id),
   FOREIGN KEY (user_id) REFERENCES users(id)
 );
-
-3. Install Dependencies
+```
+###3. Install Dependencies
 Navigate to the server/ directory:
-
+```bash
 cd server
 npm install
-
-4. Configure Environment
+```
+###4. Configure Environment
 Ensure server/config/db.js uses your MySQL credentials.
 Update server/index.js if needed for port or CORS (defaults to port 5000).
 Running the Application
 1. Start the Backend
 In the server/ directory:
-
+```bash
 nodemon server.js
-
+```
 Ensure MySQL is running locally (e.g., mysql -u root -p).
 
 2. Start the Frontend
 In the client/ directory:
-
+```bash
 npm run dev
-
+```
 Open your browser to http://localhost:5173 to access the portal.
 
-Usage
+###Usage
 Job Seekers: Visit /, use the "Login/Signup" popup to register (/jobseeker-register) or log in (/jobseeker-login), then browse jobs (/jobs) and apply with resumes.
 Employers: Log in via the popup (/company-login), manage jobs on /dashboard, and download applicant resumes.
 Administrators: Access /admin-login (manually enter URL), log in, and manage companies on /admin-dashboard.
-Technologies Used
+###Technologies Used
 Backend: Node.js, Express.js, MySQL, Multer, JWT, bcrypt
 Frontend: React, Vite, Axios, CSS
 Development Tools: VS Code, Postman, Git/GitHub, Trello, MySQL Workbench
@@ -119,8 +121,8 @@ Methodology: Agile (6 two-week sprints)
 Contributing
 Fork the repository, create a branch, and submit pull requests.
 Report issues or suggest features via GitHub Issues.
-License
+###License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+###Contact
 For questions or support, contact Prashant Khanal at prashantkhanal555@gmail.com.
