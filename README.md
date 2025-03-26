@@ -191,4 +191,4 @@ For support, feedback, or inquiries about Elevate Workforce Solutions, feel free
 
   - **Email:** support@elevateworkforce.com
   - **GitHub Issues:** File an issue on our GitHub repository for bug reports or feature requests.
-  - **Developer:** Prashant Khanal (prashantkhanal555@gmail.com)
+  - **Developer:** Prashant Khanal (prashantkhanal555@gmail.com) 
