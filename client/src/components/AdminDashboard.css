@@ -1,0 +1,160 @@
+.admin-dashboard-container {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h2 {
+  color: #1877f2; /* Blue main color */
+  font-size: 24px;
+}
+
+.tab-navigation {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.tab-navigation button {
+  padding: 10px 20px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tab-navigation button.active {
+  background: #165eab; /* Darker blue for active tab */
+}
+
+.tab-navigation button:hover:not(.active) {
+  background: #165eab;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.admin-form input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.admin-form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  height: 100px;
+}
+
+.admin-form .password-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.admin-form .show-password-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #000000; /* Black text */
+  margin-top: 5px;
+}
+
+.admin-form .show-password-label input {
+  margin-right: 5px;
+}
+
+.admin-form button {
+  padding: 12px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.admin-form button:hover {
+  background: #165eab;
+}
+
+.admin-form .cancel-btn {
+  background: #ff4444; /* Red accent */
+  margin-left: 10px;
+}
+
+.admin-form .cancel-btn:hover {
+  background: #cc0000;
+}
+
+.entity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.company-item, .job-seeker-item, .job-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.company-item button, .job-seeker-item button, .job-item button {
+  padding: 8px 16px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s;
+}
+
+.company-item button:hover, .job-seeker-item button:hover, .job-item button:hover {
+  background: #165eab;
+}
+
+.company-item .delete-btn, .job-seeker-item .delete-btn, .job-item .delete-btn {
+  background: #ff4444; /* Red accent */
+}
+
+.company-item .delete-btn:hover, .job-seeker-item .delete-btn:hover, .job-item .delete-btn:hover {
+  background: #cc0000;
+}
+
+p {
+  margin-top: 20px;
+  color: #ff4444; /* Red for messages */
+  text-align: center;
+}

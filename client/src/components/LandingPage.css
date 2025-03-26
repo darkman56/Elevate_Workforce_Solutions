@@ -1,0 +1,16 @@
+.landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .landing-page h2 {
+    color: #1877f2; /* Blue main color */
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    color: #000000; /* Black text */
+    font-size: 20px;
+    margin: 10px 0;
+  }

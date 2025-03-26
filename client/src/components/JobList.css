@@ -1,0 +1,156 @@
+.job-list-container {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.job-list-header h2 {
+  color: #1877f2; /* Blue main color */
+  font-size: 24px;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.job-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+  margin: 0 0 5px;
+  color: #1877f2; /* Blue main color */
+}
+
+.job-item p {
+  margin: 5px 0;
+  color: #000000; /* Black text */
+}
+
+.job-item small {
+  color: #666;
+  font-size: 14px;
+  display: block; /* Ensure each small tag is on a new line */
+  margin: 5px 0;
+}
+
+.apply-btn {
+  padding: 8px 16px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.apply-btn:hover {
+  background: #165eab;
+}
+
+.apply-form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.apply-form input,
+.apply-form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.apply-form textarea {
+  height: 80px;
+}
+
+.apply-form button {
+  padding: 12px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.apply-form button:hover {
+  background: #165eab;
+}
+
+.apply-form .cancel-btn {
+  background: #ff4444; /* Red accent */
+}
+
+.apply-form .cancel-btn:hover {
+  background: #cc0000;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 10px;
+  background: #1877f2; /* Blue main color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #165eab;
+}
+
+.pagination span {
+  font-size: 16px;
+  color: #000000; /* Black text */
+}
+
+.message {
+  margin-top: 20px;
+  color: #ff4444; /* Red for messages */
+  text-align: center;
+}

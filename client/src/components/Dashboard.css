@@ -1,0 +1,137 @@
+.dashboard-container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h2 {
+    color: #1877f2; /* Blue main color */
+    font-size: 24px;
+  }
+  
+  .job-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .job-form input,
+  .job-form textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text */
+  }
+  
+  .job-form textarea {
+    height: 100px;
+  }
+  
+  .job-form button {
+    padding: 12px;
+    background: #1877f2; /* Blue main color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .job-form button:hover {
+    background: #165eab;
+  }
+  
+  .job-form .cancel-btn {
+    background: #ff4444; /* Red accent */
+  }
+  
+  .job-form .cancel-btn:hover {
+    background: #cc0000;
+  }
+  
+  .job-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f7f7f7;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-item h4 {
+    margin: 0 0 5px;
+    color: #1877f2; /* Blue main color */
+  }
+  
+  .job-item p {
+    margin: 5px 0;
+    color: #000000; /* Black text */
+  }
+  
+  .job-item small {
+    color: #666;
+  }
+  
+  .job-item button {
+    padding: 8px 16px;
+    background: #1877f2; /* Blue main color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px 10px 0 0;
+    transition: background 0.3s;
+  }
+  
+  .job-item button:hover {
+    background: #165eab;
+  }
+  
+  .job-item .delete-btn {
+    background: #ff4444; /* Red accent */
+  }
+  
+  .job-item .delete-btn:hover {
+    background: #cc0000;
+  }
+  
+  .job-item h5 {
+    margin: 10px 0 5px;
+    color: #1877f2; /* Blue main color */
+  }
+  
+  .job-item ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .job-item ul li {
+    margin-bottom: 10px;
+    color: #000000; /* Black text */
+  }
+  
+  .job-item .email-btn {
+    background: #1877f2; /* Blue main color */
+  }
+  
+  .job-item .email-btn:hover {
+    background: #165eab;
+  }
