@@ -82,8 +82,9 @@ const bcrypt = require('bcryptjs');
 bcrypt.hash('Admin123', 10, (err, hash) => {
   console.log(hash);
 });
-Run this script in the server/ directory with node script.js and copy the hash into the SQL query.
 ```
+Run this script in the server/ directory with node script.js and copy the hash into the SQL query.
+
 ### 3. Set Up the Backend
 - **Navigate to the server/ directory:**
 ```bash
